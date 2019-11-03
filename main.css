@@ -45,6 +45,10 @@ ul {
 .header__title {
   background: linear-gradient(45deg, #000, gray 70%);
   background-clip: border-box;
+  background-clip: text;
+  text-fill-color: transparent;
+  background: -webkit-linear-gradient(45deg, #000, gray 70%);
+  background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: smaller;
